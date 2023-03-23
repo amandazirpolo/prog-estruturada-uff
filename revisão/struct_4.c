@@ -55,7 +55,7 @@ int main(){
     printf("Digite a quantidade de ordens de servico: \n");
     scanf("%d", &n);
 
-    dados = (tDados *)malloc(sizeof(tDados));
+    dados = (tDados *)malloc(n*sizeof(tDados));
     if (!dados){
         printf("ERROR");
         exit(1);

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #define x 3
 
 typedef struct dados {
@@ -49,7 +50,7 @@ int olhos_idade(tDados *info, float media){
     char cor = 'c';
 
     for(i = 0; i < x; i++){
-        if(info[i].cor_olhos == cor){
+        if(strcmp(info[i].cor_olhos, cor)){
             if(info[i].idade > media){
                 quantidade++;
             }
