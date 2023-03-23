@@ -32,4 +32,5 @@ int main(){
     printf("Media da quantidade de filhos da populacao: %.0f \n", ceil(media_fil));
     printf("O maior salario entre a populacao eh: %.2f", maior_sal);
 
+    return 0;
 }

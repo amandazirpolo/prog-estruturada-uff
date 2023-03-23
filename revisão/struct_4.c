@@ -74,4 +74,6 @@ int main(){
     OS_mais_cara(dados, n);
 
     free(dados);
+
+    return 0;
 }

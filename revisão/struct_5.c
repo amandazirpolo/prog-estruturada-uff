@@ -85,4 +85,6 @@ int main(){
     menor_altura(dados);
     num_olhos = olhos_idade(dados, media_idade);
     imprime_olhos(num_olhos);
+
+    return 0;
 }

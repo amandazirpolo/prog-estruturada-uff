@@ -32,4 +32,6 @@ int main(){
     }
 
     free(dados);
+
+    return 0;
 }

@@ -62,4 +62,6 @@ int main(){
     mostra_estado(dados);
     menos_acidentes(dados);
     total(dados);
+
+    return 0;
 }
